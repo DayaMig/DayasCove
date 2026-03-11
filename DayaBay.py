@@ -24,7 +24,7 @@ if st.session_state.show_intro:
     st.write("Here’s how it works:")
     st.write("- You have 10 seconds to click the button as many times as possible.")
     st.write("- Each click adds 1 point to your score.")
-    st.write("- Try to beat your own record or mine that is 35")
+    st.write("- Try to beat your own record or mine that is 73")
     st.write("Get ready to test your fingerzzz")
     if st.button("Start Game"):
         st.session_state.start_time = time.time()
